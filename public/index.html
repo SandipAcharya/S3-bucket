@@ -1,0 +1,77 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sandip Acharya - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="images/photo.jpg" alt="Sandip Acharya" class="profile-img"/>
+      <h1>Sandip Acharya</h1>
+      <p>Tech Enthusiast | Kathmandu, Nepal</p>
+      <p>📧 acharyasandip137@gmail.com | 📞 +977 9861430964</p>
+      <p>GitHub: sandipacharya10 | LinkedIn: Sandip Acharya</p>
+    </header>
+
+    <nav>
+      <button onclick="showSection('profile')">Profile</button>
+      <button onclick="showSection('education')">Education</button>
+      <button onclick="showSection('projects')">Projects</button>
+      <button onclick="showSection('achievements')">Achievements</button>
+      <button onclick="showSection('interests')">Interests</button>
+    </nav>
+
+    <main>
+      <section id="profile" class="content-section">
+        <h2>Profile</h2>
+        <p>
+          Passionate and results-driven aspiring Data Analyst and AI/ML Engineer,with a strong enthusiasm for building
+ scalable, intelligent systems. Deeply interested in AI, Machine Learning, IOT, Computer Vision, and Natural Language
+ Processing, with a focus on optimizing performance and delivering real-world impact. Eager to embrace challenges,
+ solve complex problems, and contribute to innovative software projects that shape the future of technology.
+        </p>
+      </section>
+
+      <section id="education" class="content-section">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>Tribhuvan University</strong>: B.E. in Electronics, Communication, and Information Engineering (2022–Present)</li>
+          <li><strong>Vidhya Mandir Secondary School</strong>: 10+2, CGPA: 3.75 (2019–2021)</li>
+          <li><strong>Universal Sublime Academy</strong>: SEE, GPA: 3.6 (2019)</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="content-section">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Chest X-Ray Anomaly Detection System</strong> - YOLOv7, React, Node.js</li>
+          <li><strong>Nepali Number Plate Recognition</strong> - YOLO + OCR + HOG + SVM</li>
+          <li><strong>Online Quiz Application</strong> - Python, MySQL, Tkinter</li>
+          <li><strong>GitHub Operations Visualizer</strong> - DLL + OpenGL</li>
+        </ul>
+      </section>
+
+      <section id="achievements" class="content-section">
+        <h2>Achievements</h2>
+        <ul>
+          <li>Fusemachines AI Fellowship 2024 (Top 200 of 5,000+)</li>
+          <li>IBM Python for Data Science Cert.</li>
+          <li>Kaggle: Chest X-ray Dataset Creator</li>
+          <li>IEEE Xtreme Participant | LOCUS 2024 – 3rd Prize</li>
+        </ul>
+      </section>
+
+      <section id="interests" class="content-section">
+        <h2>Interests</h2>
+        <p><strong>Technical:</strong> ML, CV, GenAI, NLP, Backend Dev</p>
+        <p><strong>Personal:</strong> Traveling, Research Papers, Photography</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
